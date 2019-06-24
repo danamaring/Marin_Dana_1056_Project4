@@ -1,8 +1,8 @@
-# Marin_Dana_1056_Project4
-
 # Project 4: Responsive Web Design
 
-##Create a basic example of a media query based on the specs reviewd in class. 
+### Media Query
+
+Create a basic example of a media query based on the specs reviewd in class. 
 
 ### Dependencies
 
