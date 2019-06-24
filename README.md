@@ -1,8 +1,8 @@
 # Project 4: Responsive Web Design
 
-### Media Query
+# Media Query
 
-Create a basic example of a media query based on the specs reviewd in class. 
+## Create a basic example of a media query based on the specs reviewd in class. 
 
 ### Dependencies
 
