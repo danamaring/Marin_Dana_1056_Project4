@@ -1,0 +1,92 @@
+/* GENERAL SETTINGS*/
+.hidden {
+	display: none;
+}
+
+
+/* MOBILE SITE*/
+@media only screen and (max-device-width: 640px) {
+	.columnsFlex {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.column_1 {
+		width: auto;
+		height: 500px;
+		background-color: pink;
+		margin-top: 40px;
+	}
+
+	.column_2 {
+		width: auto;
+		height: 500px;
+		background-color: red;
+		margin-top: 40px;
+	}
+
+	.column_3 {
+		display: none;
+	}
+
+	.column_4 {
+		display: none;
+	}
+}
+
+
+/* DESKTOP SITE*/
+@media only screen and (min-device-width: 641px) {
+	.columnsFlex {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.column_1 {
+		width: 200px;
+		height: 600px;
+		background-color: #62BAFF;
+	}
+
+	.column_2 {
+		width: 200px;
+		height: 600px;
+		background-color: #C770EB;
+	}
+
+	.column_3 {
+		width: 200px;
+		height: 600px;
+		background-color: #B0B5B0;
+	}
+
+	.column_4 {
+		width: 200px;
+		height: 600px;
+		background-color: #BD7E50;
+	}
+}
+
+
+/* MAX EXPANDING SETTINGS*/
+@media only screen and (min-device-width: 1141px) {
+	.columnsFlex {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		max-width: 1140px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.column_1, .column_2, .column_3 {
+		margin-right: 113px;
+	}
+}
+
+
+
+
+
